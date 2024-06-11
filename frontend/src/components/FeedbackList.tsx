@@ -22,15 +22,15 @@ export const FeedbackList = () => {
   }, [dispatch]);
 
   return (
-    <div className="mt-6">
+    <div className="mt-8">
       <h2 className="text-xl mb-4 font-semibold text-gray-800">
         Feedback List
       </h2>
-      <ul className="space-y-4">
+      <div>
         {feedbackList.map((feedback: Feedback) => (
           <FeedbackItem feedback={feedback} />
         ))}
-      </ul>
+      </div>
     </div>
   );
 };

@@ -10,7 +10,7 @@ function App() {
         <h1 className="text-4xl font-extrabold mb-8 text-center text-gray-800">
           Feedback App
         </h1>
-        <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
+        <div className="bg-gray-100 p-6 rounded-lg shadow-lg mb-16">
           <FeedbackForm />
           <FeedbackList />
         </div>
