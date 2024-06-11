@@ -1,6 +1,7 @@
 import { Provider } from "react-redux";
 import store from "./redux/store";
 import { FeedbackForm } from "./components/FeedbackForm";
+import {FeedbackList} from "./components/FeedbackList";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         </h1>
         <div className="bg-gray-100 p-6 rounded-lg shadow-lg">
           <FeedbackForm />
+          <FeedbackList />
         </div>
       </div>
     </Provider>
