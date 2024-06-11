@@ -26,6 +26,7 @@ export const FeedbackForm = () => {
         </div>
         <input
           type="text"
+          value={name} 
           placeholder="Enter your name"
           onChange={(e) => setName(e.target.value)}
           className="border rounded w-full py-2 px-3 text-gray-700"
@@ -38,6 +39,7 @@ export const FeedbackForm = () => {
         </div>
         <textarea
           placeholder="Enter your feedback"
+          value={feedback} 
           onChange={(e) => setFeedback(e.target.value)}
           className="border rounded w-full py-2 px-3 text-gray-700"
           required
