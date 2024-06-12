@@ -79,3 +79,7 @@ This project is a simple feedback application built with a Node.js backend and a
 - **FeedbackForm Component**: A feedback form where users could give their feedback.
 - **FeedbackList Component**: Queried all feedback entries from the backend upon its component mount using a GET call. To retrieve the list of feedback and render each feedback entry, it subscribed to the Redux store and used the `FeedbackItem` component to render out each of the feedback entries.
 - **FeedbackItem Component**: Rendered individual feedback entries for the feedback list.
+
+## Contact
+
+Tanishka Deep - [tanishkadeep09@gmail.com](mailto:tanishkadeep09@gmail.com)
